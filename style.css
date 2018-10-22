@@ -1,0 +1,81 @@
+body {
+        font-family: segoe ui;
+        font: normal 20px, segoe ui, sans-serif;
+        color: grey;
+        background: url(bg2.jpg)
+    }
+    div.box {
+        width: 600px;
+        float: left;
+    }
+    div#gbox,
+    div#fbox {
+        width: 514px;
+        height: 280px;
+        background: url(bg.jpg);
+        border-radius: 3px;
+        margin: 40px 20px;
+        box-shadow: 0px 0px 10px black;
+        border: 2px solid #00b3d3
+    }
+    p {
+        color: #2e2e2e;
+        font: normal 13px, segoe ui, sans-serif;
+        margin: 20px
+    }
+    h1 {
+        color: white;
+        font: normal 30px, segoe ui, sans-serif;
+        font-weight: lighter;
+    }
+    h2 {
+        color: white;
+        font: normal 15px, segoe ui, sans-serif;
+        font-weight: lighter;
+    }
+    #formbox {
+        float: left;
+    }
+    input[type="text"] {
+        margin: 2px;
+        text-align: center;
+        font: normal 15x segoe ui, sans serif;
+        color: #4c2318;
+        padding: 10px;
+        border-radius: 3px;
+        border: 0px;
+        width: 140px;
+    }
+    input[type="button"] {
+        text-align: center;
+        font: bold 15px segoe ui, sans serif;
+        color: #fff;
+        background: #00b3d3;
+        padding: 10px;
+        border-radius: 3px;
+        border: 1px solid white;
+        cursor: pointer;
+        width: 200px
+    }
+    label {
+        float: left;
+        width: 60px;
+        color: white;
+        position: relative;
+        top: 6px;
+    }
+    div.wsp {
+        float: left;
+        margin-left: 20px;
+    }
+    div.wsp h1 {
+        margin-left: 10px;
+    }
+    div.trans {
+        float: left;
+    }
+    textarea {
+        width: 300px;
+        height: 600px;
+        float: left;
+    }
